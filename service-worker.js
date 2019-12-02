@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/trendwatchFrontend2/precache-manifest.13e81f80437db19fa4d1d615c5531baa.js"
+  "/trendwatchFrontend2/precache-manifest.c7587d5b93d27b0644aabe94e208acbc.js"
 );
 
 self.addEventListener('message', (event) => {
