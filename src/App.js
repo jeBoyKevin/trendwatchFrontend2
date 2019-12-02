@@ -29,7 +29,7 @@ class App extends Component {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/">
+        <Route exact path="/trendwatchFrontend2/">
           <div id="banner"><Banner /></div>TYFUS
           <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
           <div id="user"></div>
