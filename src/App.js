@@ -28,8 +28,8 @@ class App extends Component {
   render() {
   return (
     <div className="App">
-      <Router>
-        <Route exact path="/trendwatchFrontend2/">
+      <Router basename={process.env.PUBLIC_URL}>
+        <Route exact path="/">
           <div id="banner"><Banner /></div>
           <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
           <div id="user"></div>
@@ -38,20 +38,20 @@ class App extends Component {
           <div id="search"><Search /></div> 
           <div id="footer"><Footer /></div>
         </Route>
-          <Route path="/trendwatchFrontend2/profile">
+          <Route path="/profile">
             <div id="banner"><Banner /></div>
             <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
             <div id="user"><User logout={this.logout}/></div>
             <div id="footer"><Footer /></div>
           </Route>
-          <Route path="/trendwatchFrontend2/profile/:id" component={ProfilePage}></Route>
-          <Route path="/trendwatchFrontend2/topic">
+          <Route path="/profile/:id" component={ProfilePage}></Route>
+          <Route path="/topic">
             <div id="banner"><Banner /></div>
             <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
             <div id="user"><User logout={this.logout}/></div>
             <div id="footer"><Footer /></div>
           </Route>
-          <Route path="/trendwatchFrontend2/topic/:id" component={TopicPage}></Route>
+          <Route path="/topic/:id" component={TopicPage}></Route>
       </Router>
     </div>
   );
