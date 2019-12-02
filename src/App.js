@@ -29,6 +29,7 @@ class App extends Component {
   return (
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
+        {console.log(process.env.PUBLIC_URL)}
         <Route exact path="/">
           <div id="banner"><Banner /></div>
           <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
