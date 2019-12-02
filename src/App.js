@@ -30,7 +30,7 @@ class App extends Component {
     <div className="App">
       <Router>
         <Route exact path="/trendwatchFrontend2/">
-          <div id="banner"><Banner /></div>TYFUS
+          <div id="banner"><Banner /></div>
           <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
           <div id="user"></div>
           <div id="infoPage"><InfoPage /></div>
@@ -38,20 +38,20 @@ class App extends Component {
           <div id="search"><Search /></div> 
           <div id="footer"><Footer /></div>
         </Route>
-          <Route path="/profile">
+          <Route path="/trendwatchFrontend2/profile">
             <div id="banner"><Banner /></div>
             <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
             <div id="user"><User logout={this.logout}/></div>
             <div id="footer"><Footer /></div>
           </Route>
-          <Route path="/profile/:id" component={ProfilePage}></Route>
-          <Route path="/topic">
+          <Route path="/trendwatchFrontend2/profile/:id" component={ProfilePage}></Route>
+          <Route path="/trendwatchFrontend2/topic">
             <div id="banner"><Banner /></div>
             <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
             <div id="user"><User logout={this.logout}/></div>
             <div id="footer"><Footer /></div>
           </Route>
-          <Route path="/topic/:id" component={TopicPage}></Route>
+          <Route path="/trendwatchFrontend2/topic/:id" component={TopicPage}></Route>
       </Router>
     </div>
   );
