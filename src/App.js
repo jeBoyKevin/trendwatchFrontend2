@@ -30,7 +30,7 @@ class App extends Component {
     <div className="App">
       <Router>
         <Route exact path="/">
-          <div id="banner"><Banner /></div>KUTZOOI
+          <div id="banner"><Banner /></div>TYFUS
           <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
           <div id="user"></div>
           <div id="infoPage"><InfoPage /></div>
