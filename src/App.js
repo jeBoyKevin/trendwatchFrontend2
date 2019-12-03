@@ -28,8 +28,7 @@ class App extends Component {
   render() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL}>
-        {console.log(process.env.PUBLIC_URL)}
+      <Router basename="/trendwatchFrontend2/">
         <Route exact path="/">
           <div id="banner"><Banner /></div>
           <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>

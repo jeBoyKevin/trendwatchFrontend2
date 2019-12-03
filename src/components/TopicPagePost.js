@@ -10,7 +10,7 @@ class TopicPagePost extends Component {
     render() {
         return(
             <div id="topicPagePost">
-                <a className="sender" href={"/profile/" + this.props.message.sender.id}>{this.props.message.sender.username}</a>
+                <a className="sender" href={"/trendwatchFrontend2/profile/" + this.props.message.sender.id}>{this.props.message.sender.username}</a>
                 <p className="date">{new Date(this.props.message.date).toDateString()}</p>
                 <p className="message">{this.props.message.message}</p>
                 <p className="updoots" id={this.props.message.id}>{this.props.message.updoots}</p>

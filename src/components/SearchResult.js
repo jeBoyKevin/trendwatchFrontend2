@@ -4,7 +4,7 @@ class SearchResult extends Component {
     
     render() {
         return(
-            <div id="searchResult" onClick={() => { this.topicClicked() }}><a href={"/topic/" + this.props.id}>{this.props.name}</a></div>
+            <div id="searchResult" onClick={() => { this.topicClicked() }}><a href={"/trendwatchFrontend2/topic/" + this.props.id}>{this.props.name}</a></div>
         )
     };
 
