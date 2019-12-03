@@ -40,6 +40,7 @@ class App extends Component {
         </Route>
           <Route path="/trendwatchFrontend2/profile">
             <div id="banner"><Banner /></div>
+            <p>TIETEN</p>
             <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
             <div id="user"><User logout={this.logout}/></div>
             <div id="footer"><Footer /></div>
