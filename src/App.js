@@ -38,20 +38,20 @@ class App extends Component {
           <div id="search"><Search /></div> 
           <div id="footer"><Footer /></div>
         </Route>
-          <Route path="/trendwatchFrontend2/profile">
+          <Route exact path="/trendwatchFrontend2/profile">
             <div id="banner"><Banner /></div>
             <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
             <div id="user"><User logout={this.logout}/></div>
             <div id="footer"><Footer /></div>
           </Route>
-          <Route path="/trendwatchFrontend2/profile/:id" component={ProfilePage}></Route>
-          <Route path="/trendwatchFrontend2/topic">
+          <Route exact path="/trendwatchFrontend2/profile/:id" component={ProfilePage}></Route>
+          <Route exact path="/trendwatchFrontend2/topic">
             <div id="banner"><Banner /></div>
             <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
             <div id="user"><User logout={this.logout}/></div>
             <div id="footer"><Footer /></div>
           </Route>
-          <Route path="/trendwatchFrontend2/topic/:id" component={TopicPage}></Route>
+          <Route exact path="/trendwatchFrontend2/topic/:id" component={TopicPage}></Route>
       </Router>
     </div>
   );
