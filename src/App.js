@@ -28,7 +28,7 @@ class App extends Component {
   render() {
   return (
     <div className="App">
-      <Router basename="/trendwatchFrontend2/">
+      <Router>
         <Route exact path="/trendwatchFrontend2/">
           <div id="banner"><Banner /></div>
           <div id="login"><Login loginSuccesfull={this.loginSuccesfull}/></div>
