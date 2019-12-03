@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41a22c84df958349e26fba622f3a7e9c",
+    "revision": "e572434acebe10148195e0a16043b3c6",
     "url": "/trendwatchFrontend2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trendwatchFrontend2/static/css/2.653462cc.chunk.css"
   },
   {
-    "revision": "a8312afc6cd6d976eb2a",
+    "revision": "c4e2ef2f330220ce51fa",
     "url": "/trendwatchFrontend2/static/css/main.71598800.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trendwatchFrontend2/static/js/2.b657fa55.chunk.js"
   },
   {
-    "revision": "a8312afc6cd6d976eb2a",
-    "url": "/trendwatchFrontend2/static/js/main.c41147cd.chunk.js"
+    "revision": "c4e2ef2f330220ce51fa",
+    "url": "/trendwatchFrontend2/static/js/main.f9d9fb37.chunk.js"
   },
   {
     "revision": "c5ffd3f298daebfddada",
