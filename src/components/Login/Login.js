@@ -52,16 +52,18 @@ class Login extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
-        if(this.validateForm()) {
-            this.login();
+        if(this.validateForm() === false) {
+            return;
         }
+        this.login();
     }
     
     handleRegister = event => {
         event.preventDefault();
-         if(this.validateForm()) {
-            this.register();
-         }
+        if(this.validateForm() === false) {
+            return;
+        }
+        this.register();
     }
 
     componentDidMount() {
