@@ -19,10 +19,13 @@ class Login extends Component {
     validateForm = () => { 
         if(this.state.username.length < 4) {
             message.info('The username must consist of atleast 4 characters');
+            return false;
         }
         if (this.state.password.length < 6) {
             message.info('The password must consist of atleast 6 characters');
+            return false;
         }
+        return true;
     }
     async login() {
         const params = {
@@ -49,14 +52,16 @@ class Login extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
-        this.validateForm();
-        this.login();
+        if(this.validateForm()) {
+            this.login();
+        }
     }
     
     handleRegister = event => {
         event.preventDefault();
-        this.validateForm();
-        this.register();
+         if(this.validateForm()) {
+            this.register();
+         }
     }
 
     componentDidMount() {
