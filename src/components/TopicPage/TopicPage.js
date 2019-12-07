@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import TopicPageBanner from './TopicPageBanner';
-import TopicPagePosts from './TopicPagePosts';
+import TopicPageBanner from '../TopicPageBanner/TopicPageBanner';
+import TopicPagePosts from '../TopicPagePosts/TopicPagePosts';
 import { message } from 'antd';
 
 class TopicPage extends Component {

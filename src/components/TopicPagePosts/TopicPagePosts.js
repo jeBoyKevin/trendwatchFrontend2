@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import TopicPagePost from './TopicPagePost';
+import TopicPagePost from '../TopicPagePost/TopicPagePost';
 
 class TopicPagePosts extends Component {
 

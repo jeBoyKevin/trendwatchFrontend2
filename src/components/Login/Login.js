@@ -99,7 +99,7 @@ class Login extends Component {
     }
 
     Login.propTypes = {
-        loginSuccesfull: PropTypes.func.isRequired
+        loginSuccesfull: PropTypes.func
     }
 
 

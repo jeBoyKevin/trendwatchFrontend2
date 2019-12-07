@@ -1,16 +1,16 @@
 import React, { Component} from 'react';
 import './App.css';
-import Banner from './components/Banner';
-import TrendingTopics from './components/TrendingTopics';
-import Login from './components/Login';
-import Footer from './components/Footer';
-import InfoPage from './components/InfoPage';
-import User from './components/User';
-import ProfilePage from './components/ProfilePage';
+import Banner from './components/Banner/Banner.js';
+import TrendingTopics from './components/TrendingTopics/TrendingTopics';
+import Login from './components/Login/Login';
+import Footer from './components/Footer/Footer';
+import InfoPage from './components/infoPage/InfoPage';
+import User from './components/User/User';
+import ProfilePage from './components/ProfilePage/ProfilePage';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Search from './components/Search';
-import TopicPage from './components/TopicPage';
+import Search from './components/Search/Search';
+import TopicPage from './components/TopicPage/TopicPage';
 
 
 class App extends Component {

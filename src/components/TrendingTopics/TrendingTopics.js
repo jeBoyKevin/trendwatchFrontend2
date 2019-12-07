@@ -1,5 +1,5 @@
 import React , { Component}  from 'react';
-import TrendingTopicItem from './TrendingTopicItem';
+import TrendingTopicItem from '../TrendingTopicItem/TrendingTopicItem';
 import axios from 'axios';
 
 class TrendingTopics extends Component {
@@ -30,5 +30,4 @@ class TrendingTopics extends Component {
         });
     }
 }
-
 export default TrendingTopics;
